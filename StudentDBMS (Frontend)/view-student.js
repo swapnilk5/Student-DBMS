@@ -44,12 +44,6 @@ async function deleteStudent(id){
   }
 }
 
-
-function redirectToAddStudent(element) {
-   setActiveNavLink(element);
-  window.location.href = "add-student.html";
-  console.log("Redirecting to Add Student...");
-}
 function updateStudent(id) {
   window.location.href = `update-student.html?id=${id}`; // Pass the ID as a query parameter
 }
