@@ -26,10 +26,5 @@ async function handleSubmit(event) {
   }
 }
 
-function redirectToViewStudent(element) {
-  setActiveNavLink(element);
-  window.location.href = "view-student.html";
-  console.log("Redirecting to Student Data...");
-}
 
 
